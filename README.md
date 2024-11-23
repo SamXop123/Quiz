@@ -1,4 +1,4 @@
-# Quiz App 🎉  
+<h1> # Quiz App 🎉 </h1>
 A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScript. This project showcases dynamic template rendering, creative styling, and functional button controls, making it an engaging experience for users.
 
 # Features 🌟
