@@ -18,10 +18,10 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 
 
 # Technology Stack 🛠️
-Backend Framework: Flask (Python)
-Frontend: HTML, CSS, JavaScript
-CSS Styling: Custom and heavy usage for animations, hover effects, and layout
-JavaScript: For button interactions and user feedback
+<b>Backend Framework:</b> Flask (Python) <br>
+<b>Frontend:</b> HTML, CSS, JavaScript <br>
+<b>CSS Styling:</b> Custom and heavy usage for animations, hover effects, and layout <br>
+<b>JavaScript:</b> For button interactions and user feedback <br>
 
 # How to Run Locally 🏃‍♂️💻
 
@@ -38,10 +38,11 @@ python app.py
 <b> And done! Open it into your browser. </b>
 
 # Future Improvements 🚀
-Add a results page to show user scores.
-Implement a timer for each question.
-Add a database to store user results.
-Make it mobile responsive.
+Add a results page to show user scores. <br>
+Implement a timer for each question.<br>
+Add a database to store user results. <br>
+Make it mobile responsive. <br>
 
 # Contributing 🤝
 Feel free to fork this repository, raise issues, or submit pull requests to improve the project!
+<br>
