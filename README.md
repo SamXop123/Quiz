@@ -1,2 +1,2 @@
-# Quiz
- A stylish Quiz website
+# Quiz App 🎉  
+A stylish Quiz website
