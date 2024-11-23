@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1> 
+        What is your favorite sport?
+    </h1>
+
+    <form action="/quiz4" method="get">
+
+        <button type = "submit"> Cricket </button>
+        <button type = "submit"> Football </button>
+        <button type = "submit"> Basketball </button>
+
+        <label for="sport"></label>
+        <select id="sport" name="sport" onchange="showSubmitButton()">
+            <option value="" disabled selected>Other sport</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="hockey">Hockey</option>
+            <option value="athletics">Athletics</option>
+            <option value="gymnastics">Gymnastics</option>
+            <option value="racing">Racing</option>
+        </select>
+
+        <input type="submit" id="submit-button" value="Submit" style="display: none;">
+    </form>
+
+{% endblock %}

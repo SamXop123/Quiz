@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1> 
+        Which is the best subject?
+    </h1>
+
+    <form action="/complete" method="get">
+
+        <button type = "submit"> Maths </button>
+        <button type = "submit"> Physics </button>
+        <button type = "submit"> Chemistry </button>
+        <button type = "submit"> Computer Science </button>
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,138 @@
+body {
+    background-image: url('bg.jpg');
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#quiz-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px; /* Adjusted margin for quiz heading */
+    font-weight: 800;
+    font-size: 32px; /* Slightly smaller font size */
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+#options-container {
+    margin-bottom: 20px; /* Space between options and next button */
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: none;
+}
+
+#next-button {
+    margin-top: 20px; /* Margin for spacing between options and next button */
+}
+
+
+input {
+    padding: 15px 30px;
+    margin: 10px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+
+input:hover {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+input:focus {
+    outline: none;
+}
+
+
+select {
+    padding: 15px 30px;
+    margin: 10px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    appearance: none; /* Remove default arrow for custom styling */
+    -webkit-appearance: none; /* For Chrome */
+    -moz-appearance: none; /* For Firefox */
+    text-align-last: center; /* Center the selected text */
+}
+
+/* Add a custom arrow using background image */
+select::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Style the select element on hover */
+select:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Style the select element on focus */
+select:focus {
+    outline: none;
+}
+
+/* Style the options inside the select element */
+option {
+    background-color: white;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
