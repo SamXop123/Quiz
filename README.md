@@ -24,10 +24,10 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 
 <h2> Technology Stack 🛠️</h2>
 <ul>
-<li><b>Backend Framework:</b> Flask (Python) </li><br>
-<li><b>Frontend:</b> HTML, CSS, JavaScript </li><br>
-<li><b>CSS Styling:</b> Custom and heavy usage for animations, hover effects, and layout </li><br>
-<li><b>JavaScript:</b> For button interactions and user feedback </li><br>
+<li><b>Backend Framework:</b> Flask (Python) </li>
+<li><b>Frontend:</b> HTML, CSS, JavaScript </li>
+<li><b>CSS Styling:</b> Custom and heavy usage for animations, hover effects, and layout </li>
+<li><b>JavaScript:</b> For button interactions and user feedback </li>
 </ul>
 
 <br>
