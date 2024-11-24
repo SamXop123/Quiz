@@ -33,18 +33,19 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 <br>
 
 <h2> How to Run Locally 🏃‍♂️💻</h2>
+<ul>
+<li><b> Clone this repository: </b>
+git clone "your-repo-link"
+cd "repository-folder" </li>
 
-<b> Clone this repository: </b>
-git clone <your-repo-link>
-cd <repository-folder>
+<li><b> Install dependencies: </b>
+pip install -r requirements.txt </li>
 
-<b> Install dependencies: </b>
-pip install -r requirements.txt
+<li><b> Run the Flask app: </b>
+python app.py </li>
 
-<b> Run the Flask app: </b>
-python app.py
-
-<b> And done! Open it into your browser. </b>
+<li><b> And done! Open it into your browser. </b></li>
+</ul>
 
 <br>
 
