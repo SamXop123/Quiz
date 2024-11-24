@@ -3,6 +3,11 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 
 <br>
 
+<h2> To run: </h2>
+<b>Visit:</b> https://quiz-five-three.vercel.app
+
+<br>
+
 <h2> Features 🌟</h2>
 
 <ul>
