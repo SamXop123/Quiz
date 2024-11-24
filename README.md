@@ -4,7 +4,7 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 <br>
 
 <h2> To run: </h2>
-<a target = "_blank" href="https://quiz-five-three.vercel.app"><b>Click Here!</b></a>
+<a target="_blank" rel="noopener noreferrer" href="https://quiz-five-three.vercel.app"><b>Click Here!</b></a>
 
 <br>
 
