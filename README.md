@@ -3,19 +3,20 @@ A fun and interactive quiz application built using Flask, HTML, CSS, and JavaScr
 
 <h2> Features 🌟</h2>
 
-<b>Flask Backend:</b>
-  Renders different templates seamlessly and manages quiz flow. <br>
-<b>Interactive Start Page:</b>
-  Welcomes users with a dynamic start screen. <br>
-<b>Unique Questions:</b>
-  Each question has its own HTML template with tailored designs. <br>
-<b>Hover Cards:</b>
-  One quiz page includes interactive hover cards powered by CSS. <br>
-<b>Rich Styling:</b>
-  Extensive use of CSS for vibrant visuals and smooth interactions. <br>
-<b>Functional Buttons:</b>
-  JavaScript enhances button functionality and user engagement.
-
+<ul>
+<li><b>Flask Backend:</b>
+  Renders different templates seamlessly and manages quiz flow. </li><br>
+<li><b>Interactive Start Page:</b>
+  Welcomes users with a dynamic start screen. </li><br>
+<li><b>Unique Questions:</b>
+  Each question has its own HTML template with tailored designs. </li><br>
+<li><b>Hover Cards:</b>
+  One quiz page includes interactive hover cards powered by CSS. </li><br>
+<li><b>Rich Styling:</b>
+  Extensive use of CSS for vibrant visuals and smooth interactions. </li><br>
+<li><b>Functional Buttons:</b>
+  JavaScript enhances button functionality and user engagement.</li>
+</ul>
 
 <h2> Technology Stack 🛠️</h2>
 <b>Backend Framework:</b> Flask (Python) <br>
